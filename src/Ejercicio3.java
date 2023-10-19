@@ -21,6 +21,10 @@ public class Ejercicio3 {
                 n2 = sc.nextInt();
                 if (n2 > n1) creciente++;
                 else if (n2 < n1 && n2 >= 0) decreciente++;
+                else if (n2 == n1) {
+                    creciente++;
+                    decreciente++;
+                }
             }
             n1 = n2;
         } while (n2 >= 0);
