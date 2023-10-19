@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Ejercicio2 {
-    final static int PERSONAS_AUTOBUSES = 55;
+    static final int PERSONAS_AUTOBUSES = 55;
     public static void main(String[] args) {
         int personas;
         int suma_personas = 0;
