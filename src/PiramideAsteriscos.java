@@ -21,7 +21,7 @@ public class PiramideAsteriscos {
                 System.out.print(" ");
             }
 
-            for (int j = 0; j < 2 * asteriscos - 1; j++) {
+            for (int j = 0; j < 2*asteriscos - 1; j++) {
                 System.out.print("*");
             }
 
