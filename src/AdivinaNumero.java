@@ -13,7 +13,10 @@ public class AdivinaNumero {
             if (n == numero_random) {
                 System.out.println("Has acertado");
                 break;
-            } else System.out.println("Has fallado");
+            } else {
+                if (i != 9) System.out.println("Has fallado el número es " + (n>numero_random ? "menor" : "mayor"));
+                else System.out.println("Has fallado");
+            }
         }
         System.out.println("El número era: " + numero_random);
     }
